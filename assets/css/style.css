@@ -1,0 +1,64 @@
+body {
+    font-family: "Press Start 2P", serif;
+  }
+
+#logo {
+	width: 70%;
+	
+}
+
+.navbar {
+    background-color: rgb(16,14,24);
+}
+
+.form-control {
+    font-size: .8rem;
+}
+
+#footer {
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+#gifPanel{
+    min-height: 50vh;
+}
+
+#gif{
+    height: 230px;
+    width: 230px;
+}
+
+/* .col {
+    border-radius: 25px;
+    background-color: rgb(13,110,253);
+} */
+
+img {
+    border-radius: 10px;
+    
+}
+
+/* .input-group {
+    width: 50%;
+} */
+
+/* @media only screen and (min-width: 1200px) {
+    #logo {
+        width: 100%;        
+    }   
+} */
+
+@media only screen and (max-width: 768px) {
+    
+    #logo {
+        width: 75%;        
+    }   
+
+}
+
+@media only screen and (max-width: 600px) {
+    #logo {
+        width: 62%;        
+    }   
+}
